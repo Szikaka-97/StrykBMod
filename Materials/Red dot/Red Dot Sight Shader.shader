@@ -8,6 +8,7 @@ Shader "Custom/Reflex"
         _Color ("Color", color) = (1, 1, 1, 1)
         _Scale ("Scale", float) = 1
         _Intensiveness("Reticle Intensiveness", float) = 1
+        _NoiseMul("Reticle Noise", float) = 1
     }
     SubShader
     {
@@ -40,7 +41,12 @@ Shader "Custom/Reflex"
             float4 _Color;
             float _Scale;
             float _Intensiveness;
+            float _NoiseMul;
 
+            //https://forum.unity.com/threads/generate-random-float-between-0-and-1-in-shader.610810/
+            float random (float2 uv) {
+                return frac(sin(dot(uv,float2(12.9898,78.233)))*43758.5453123);
+            }
 
             v2f vert(appdata v) {
                 v2f o;
@@ -73,19 +79,10 @@ Shader "Custom/Reflex"
 
                 texture_sample.a -= (uv.x < -0.5 || uv.x > 0.5 || uv.y < -0.5 || uv.y > 0.5) * texture_sample.a; // Fix reticles tiling next to one another
 
-                return texture_sample * _Intensiveness;
+                float noise = random(uv * _Time[0]);
+
+                return (texture_sample * _Intensiveness * (1 - _NoiseMul)) + (texture_sample * _Intensiveness * _NoiseMul * noise);
             }
-
-            struct SurfaceOutput
-            {
-                fixed3 Albedo;  // diffuse color
-                fixed3 Normal;  // tangent space normal, if written
-                fixed3 Emission;
-                half Specular;  // specular power in 0..1 range
-                fixed Gloss;    // specular intensity
-                fixed Alpha;    // alpha for transparencies
-            };
-
 
             ENDCG
         }

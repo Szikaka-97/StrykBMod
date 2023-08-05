@@ -71,9 +71,11 @@ Material:
     - _Intensiveness: 2
     - _Metallic: 0
     - _Mode: 0
+    - _Noise: 1
+    - _NoiseMul: 0.6
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Scale: 0.1
+    - _Scale: 0.075
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
