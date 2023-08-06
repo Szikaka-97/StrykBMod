@@ -6,13 +6,14 @@ using Receiver2ModdingKit;
 public class StrykBScript : ModGunScript {
 	public static bool loaded = true;
     
-    public Transform trigger_transform;
-
     public override void AwakeGun() {
-        this.trigger.transform = this.trigger_transform;
+        
     }
 
 	public override void UpdateGun() {
-		
+		if (this.trigger.amount == 1) {
+            Debug.Log("Bum");
+            this._disconnector_needs_reset = true;
+        }
 	}
 }

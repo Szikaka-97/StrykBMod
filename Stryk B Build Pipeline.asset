@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2459257874117738593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f65d4371163fb4695da79ab8df0e84, type: 3}
+  m_Name: ExecuteProcess
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  workingDirectory: D:\Gry\Steam\steamapps\common\Receiver 2
+  executable: Receiver2.exe
+  arguments: []
 --- !u!114 &-1290592747372916093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,5 +69,6 @@ MonoBehaviour:
   Data:
   - {fileID: -883455484595094007}
   - {fileID: -1290592747372916093}
+  - {fileID: -2459257874117738593}
   QuickAccess: 0
   manifest: {fileID: 11400000, guid: 4a5d509947aa977429860b5f726d8e78, type: 2}
