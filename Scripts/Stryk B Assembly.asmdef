@@ -1,0 +1,17 @@
+{
+    "name": "StrykBMod",
+    "references": [
+        "GUID:3c145d048ff854a418f4aaa92d0b246a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Wolfire.Receiver2.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
