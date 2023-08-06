@@ -72,7 +72,7 @@ Shader "Custom/Reflex"
 
                 offset = mul(mat, offset);  //transform offset into tangent space
 
-                float2 uv = offset.xy / _Scale; //sample and scale
+                float2 uv = offset.xy / -_Scale; //sample and scale
                 float4 texture_sample = tex2D(_MainTex, uv + float2(0.5, 0.5));  //shift sample to center of texture
 
                 texture_sample.xyz = _Color.xyz; // Create the shape of the reticle using the texture as a mask
