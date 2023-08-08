@@ -77,9 +77,9 @@ Shader "Custom/Reflex"
 
                 texture_sample.xyz = _Color.xyz; // Create the shape of the reticle using the texture as a mask
 
-                texture_sample.a -= (uv.x < -0.5 || uv.x > 0.5 || uv.y < -0.5 || uv.y > 0.5) * texture_sample.a; // Fix reticles tiling next to one another
-
                 float noise = random(uv * _Time[0]);
+
+                texture_sample.a -= (uv.x < -0.5 || uv.x > 0.5 || uv.y < -0.5 || uv.y > 0.5) * texture_sample.a; // Fix reticles tiling next to one another
 
                 return (texture_sample * _Intensiveness * (1 - _NoiseMul)) + (texture_sample * _Intensiveness * _NoiseMul * noise);
             }
