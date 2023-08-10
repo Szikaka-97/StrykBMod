@@ -70,4 +70,5 @@ MonoBehaviour:
   Name: Stryk B Plugin
   Description: 
   Version: 0.1.0
-  Dependencies: []
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}

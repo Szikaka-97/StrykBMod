@@ -39,7 +39,7 @@ public class StrykBScript : ModGunScript {
         this._firing_pin.UpdateDisplay();
     }
 
-    private void LateUpdate() {
+    public void LateUpdate() {
         UpdateStriker();
     }
 
@@ -62,8 +62,6 @@ public class StrykBScript : ModGunScript {
 
         if (this._firing_pin.amount == 1 && (old_vel > new_vel || fired_on_this_frame)) {
             this.TryFireBullet(1);
-
-            Debug.Log("Bang");
         }
 	}
 }
