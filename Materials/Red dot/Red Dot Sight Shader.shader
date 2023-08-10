@@ -9,6 +9,7 @@ Shader "Custom/Reflex"
         _Scale ("Scale", float) = 1
         _Intensiveness("Reticle Intensiveness", float) = 1
         _NoiseMul("Reticle Noise", float) = 1
+        _Offset ("Reticle Offset", vector) = (0, 0, 0, 0)
     }
     SubShader
     {
@@ -42,6 +43,7 @@ Shader "Custom/Reflex"
             float _Scale;
             float _Intensiveness;
             float _NoiseMul;
+            float2 _Offset;
 
             //https://forum.unity.com/threads/generate-random-float-between-0-and-1-in-shader.610810/
             float random (float2 uv) {
@@ -73,6 +75,7 @@ Shader "Custom/Reflex"
                 offset = mul(mat, offset);  //transform offset into tangent space
 
                 float2 uv = offset.xy / -_Scale; //sample and scale
+                uv += _Offset / _Scale;
                 float4 texture_sample = tex2D(_MainTex, uv + float2(0.5, 0.5));  //shift sample to center of texture
 
                 texture_sample.xyz = _Color.xyz; // Create the shape of the reticle using the texture as a mask

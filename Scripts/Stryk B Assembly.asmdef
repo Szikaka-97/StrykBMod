@@ -1,14 +1,15 @@
 {
     "name": "StrykBMod",
     "references": [
-        "GUID:3c145d048ff854a418f4aaa92d0b246a"
+        "Receiver2ModdingKit"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [
-        "Wolfire.Receiver2.dll"
+        "Wolfire.Receiver2.dll",
+        "BepInEx.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

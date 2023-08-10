@@ -18,6 +18,7 @@ MonoBehaviour:
   - assetBundleName: szikaka_strykb.windows
     assets:
     - {fileID: 2649382496073203240, guid: ab46b7039fc92164b9ea2f21f2e57aed, type: 3}
+    - {fileID: 3828907343282948865, guid: 87431bfefc5228442b2907307414545b, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

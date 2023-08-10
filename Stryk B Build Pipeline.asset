@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f65d4371163fb4695da79ab8df0e84, type: 3}
   m_Name: ExecuteProcess
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   PerManifest: 0
   ListType: 0
   Manifests: []
@@ -70,5 +70,5 @@ MonoBehaviour:
   - {fileID: -883455484595094007}
   - {fileID: -1290592747372916093}
   - {fileID: -2459257874117738593}
-  QuickAccess: 0
+  QuickAccess: 1
   manifest: {fileID: 11400000, guid: 4a5d509947aa977429860b5f726d8e78, type: 2}
