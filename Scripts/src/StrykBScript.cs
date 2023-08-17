@@ -9,6 +9,13 @@ public class StrykBScript : ModGunScript {
     public Texture2D troll;
     public Renderer rds_renderer;
 
+    public Transform trigger_bar_component;
+    public Transform firing_pin_safety;
+
+    public SkinnedMeshRenderer fat_spring;
+    public SkinnedMeshRenderer medium_spring;
+    public SkinnedMeshRenderer skinny_spring;
+
     private static FieldInfo m_firing_pin;
 
     private bool cocking_striker = true;
@@ -41,6 +48,19 @@ public class StrykBScript : ModGunScript {
 
     public void LateUpdate() {
         UpdateStriker();
+
+        ApplyTransform("disconnector_animation", this.slide.amount * Mathf.Clamp01(Mathf.InverseLerp(0.433f, 1, this.trigger.amount) + 0.45f), trigger_bar_component);
+
+        if (this.round_in_chamber != null && this.malfunction != Malfunction.DoubleFeed) {
+            ApplyTransform("extractor_animation", this.slide.amount, this.slide.transform.Find("extractor"));
+        }
+        else {
+            ApplyTransform("extractor_animation", 0, this.slide.transform.Find("extractor"));
+        }
+
+        this.fat_spring.SetBlendShapeWeight(0, 100 - Mathf.InverseLerp(0, 0.2628f, slide.amount) * 100);
+        this.medium_spring.SetBlendShapeWeight(0, 100 - Mathf.InverseLerp(0.2628f, 0.6596f, slide.amount) * 100);
+        this.skinny_spring.SetBlendShapeWeight(0, 100 - Mathf.InverseLerp(0.6596f, 1, slide.amount) * 100);
     }
 
 	public override void UpdateGun() {
@@ -56,6 +76,13 @@ public class StrykBScript : ModGunScript {
         }
         else if (this.trigger.amount == 0) this._disconnector_needs_reset = false;
         
+        if (this.slide.amount == 0) {
+            ApplyTransform("firing_pin_safety", this.trigger.amount, firing_pin_safety);
+        }
+        else {
+            ApplyTransform("firing_pin_safety", 0, firing_pin_safety);
+        }
+
         float old_vel = this._firing_pin.vel;
         this._firing_pin.TimeStep(Time.deltaTime * Time.timeScale);
         float new_vel = this._firing_pin.vel;
