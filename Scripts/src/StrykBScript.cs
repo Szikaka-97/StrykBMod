@@ -11,22 +11,15 @@ public class StrykBScript : ModGunScript {
 
     public Transform trigger_bar_component;
     public Transform firing_pin_safety;
+    public Transform ejector;
 
     public SkinnedMeshRenderer fat_spring;
     public SkinnedMeshRenderer medium_spring;
     public SkinnedMeshRenderer skinny_spring;
 
-    private static FieldInfo m_firing_pin;
-
     private bool cocking_striker = true;
 
-    private LinearMover _firing_pin {
-        get { return (LinearMover) m_firing_pin.GetValue(this); }
-    }
-
     public override void AwakeGun() {
-        m_firing_pin = typeof(GunScript).GetField("firing_pin", BindingFlags.Instance | BindingFlags.NonPublic);
-
         this._firing_pin.accel = 8000;
         this._firing_pin.target_amount = 1;
     }
@@ -48,6 +41,11 @@ public class StrykBScript : ModGunScript {
 
     public void LateUpdate() {
         UpdateStriker();
+
+        if (this.slide.amount == 0 && this._firing_pin.amount > 0 && this._firing_pin.amount < 0.5) {
+            this.trigger.amount = Mathf.Max(this.trigger.amount, Mathf.InverseLerp(0.5f, 0f, this._firing_pin.amount) * 0.75f);
+            this.trigger.UpdateDisplay();
+        }
 
         ApplyTransform("disconnector_animation", this.slide.amount * Mathf.Clamp01(Mathf.InverseLerp(0.433f, 1, this.trigger.amount) + 0.45f), trigger_bar_component);
 
@@ -74,7 +72,7 @@ public class StrykBScript : ModGunScript {
 
             fired_on_this_frame = true;
         }
-        else if (this.trigger.amount == 0) this._disconnector_needs_reset = false;
+        else if (this.trigger.amount <= 0.8) this._disconnector_needs_reset = false;
         
         if (this.slide.amount == 0) {
             ApplyTransform("firing_pin_safety", this.trigger.amount, firing_pin_safety);
@@ -89,6 +87,17 @@ public class StrykBScript : ModGunScript {
 
         if (this._firing_pin.amount == 1 && (old_vel > new_vel || fired_on_this_frame)) {
             this.TryFireBullet(1);
+        }
+
+        if (this.magazine_instance_in_gun != null && this.magazine_instance_in_gun.extracting) {
+            float top_round_forward_amount = Vector3.Dot(this.magazine_instance_in_gun.rounds[0].transform.position, transform.forward);
+            float magazine_forward_amount = Vector3.Dot(this.magazine_instance_in_gun.round_top.position, transform.forward);
+            float barrel_forward_amount = Vector3.Dot(this.transform.Find("barrel/point_chambered_round").position, transform.forward);
+
+            ApplyTransform("ejector_animation", Mathf.InverseLerp(magazine_forward_amount, barrel_forward_amount, top_round_forward_amount), this.ejector);
+        }
+        else {
+            ApplyTransform("ejector_animation", 0, this.ejector);
         }
 	}
 }
