@@ -2732,15 +2732,15 @@ MonoBehaviour:
       length: 2
     events: []
   spawn_info_sprite: {fileID: 21300000, guid: c20949df0831473469cdf79e93902a41, type: 3}
-  sound_event_gunshot: 
-  sound_dry_fire: 
+  sound_event_gunshot: event:/strykb_fire
+  sound_dry_fire: event:/strykb_dry_fire
   sound_safety_on: 
   sound_safety_off: 
   sound_start_insert_mag: 
-  sound_insert_mag_empty: 
-  sound_insert_mag_loaded: 
-  sound_eject_mag_empty: 
-  sound_eject_mag_loaded: 
+  sound_insert_mag_empty: event:/strykb_mag_in
+  sound_insert_mag_loaded: event:/strykb_mag_in
+  sound_eject_mag_empty: event:/strykb_mag_out
+  sound_eject_mag_loaded: event:/strykb_mag_out
   sound_double_feed: 
   sound_double_feed_mag_release: 
   sound_extractor_rod_extend: 
@@ -2749,15 +2749,15 @@ MonoBehaviour:
   sound_cylinder_open: 
   sound_cylinder_close: 
   sound_cylinder_index: 
-  sound_press_check_start: 
-  sound_press_check_end: 
+  sound_press_check_start: event:/strykb_press_check_start
+  sound_press_check_end: event:/strykb_press_check_end
   sound_barrel_lock: 
   sound_barrel_unlock: 
   sound_eject_bullet: 
-  sound_slide_back: 
-  sound_slide_back_partial: 
+  sound_slide_back: event:/strykb_slide_back
+  sound_slide_back_partial: event:/strykb_press_check_start
   sound_slide_hit_lock: 
-  sound_slide_released: 
+  sound_slide_released: event:/strykb_slide_forward
   sound_cocked: 
   sound_decock: 
   sound_trigger_forwards: 
