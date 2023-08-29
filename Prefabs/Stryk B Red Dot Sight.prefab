@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7721415154289947847}
   - component: {fileID: 7972155725452740894}
   - component: {fileID: 3307835492370269924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: custom_rds_screw_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 255324988879845948}
   - component: {fileID: 7975408702209602267}
   - component: {fileID: 2797635335726950646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: custom_rds_screw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,13 +173,13 @@ GameObject:
   - component: {fileID: 7187216717476755199}
   - component: {fileID: 4778512802397725138}
   - component: {fileID: 5934944595730245969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: reticle_plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7187216717476755199
 Transform:
   m_ObjectHideFlags: 0
@@ -250,10 +250,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7703356912560323573}
+  - component: {fileID: 2224957513761164723}
   - component: {fileID: 8249466607010310464}
   - component: {fileID: 9121835037202874085}
   - component: {fileID: 1353146541799634342}
-  m_Layer: 0
+  - component: {fileID: 9189810697934926312}
+  m_Layer: 8
   m_Name: Stryk B Red Dot Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,6 +280,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2224957513761164723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807435496881866014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36b5e224b441a249b245e8b9d6ec498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uid: 
+  internal_name: szikaka.stryk_b_rds
+  type: 11
+  has_been_touched_by_player: 0
+  storable_in_pouch: 1
+  item_owner_id: -1
+  slot: {fileID: 0}
+  rigid_body: {fileID: 0}
+  center_of_mass: {fileID: 0}
+  force_pull_start_position: {x: 0, y: 0, z: 0}
+  force_pull_start_rotation: {x: 0, y: 0, z: 0, w: 0}
+  force_pull_start_time: -Infinity
+  physics_collided: 1
+  physics_activated_time: 0
+  colliders:
+  - {fileID: 9189810697934926312}
+  pickup_sound: 
+  drop_sound: 
+  ground_pos_offset: {fileID: 0}
+  glint_renderer: {fileID: 0}
+  inventory_position: {x: 0, y: 0, z: 0}
+  inventory_rotation: {x: 0, y: 90, z: 0}
+  inventory_scale: {x: 3, y: 3, z: 3}
+  hold_offset: {x: -0.06, y: -0.02, z: 0.1}
+  hold_rotation: {x: 0, y: 0, z: 0}
+  hold_scale: 1
+  rds_renderer: {fileID: 5934944595730245969}
 --- !u!33 &8249466607010310464
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -339,6 +380,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 3e8ae670957ebac49a8239747e830fcd, type: 2}
   xray_material: {fileID: 2100000, guid: dc8d342ef5db224489e959fc4af3b877, type: 2}
+--- !u!65 &9189810697934926312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807435496881866014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025499111, y: 0.023103772, z: 0.04096859}
+  m_Center: {x: 9.313226e-10, y: -9.313226e-10, z: 0}
 --- !u!1 &7922690060003238737
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +404,7 @@ GameObject:
   - component: {fileID: 7287670423550274805}
   - component: {fileID: 7611467026580717548}
   - component: {fileID: 4782523997026066565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rds_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +483,7 @@ GameObject:
   - component: {fileID: 631476683243867012}
   - component: {fileID: 5720154247684108373}
   - component: {fileID: 2255289361506486464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: washer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +562,7 @@ GameObject:
   - component: {fileID: 3549338257975823138}
   - component: {fileID: 7136473919379224430}
   - component: {fileID: 1111360018482808961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: washer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

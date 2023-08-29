@@ -1050,6 +1050,7 @@ Transform:
   - {fileID: 3948437952516928407}
   - {fileID: 5641633228732495732}
   - {fileID: 1370946792536776122}
+  - {fileID: 759161599634404858}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1083,7 +1084,7 @@ MonoBehaviour:
   - {fileID: 2654562856701753428}
   pickup_sound: 
   drop_sound: 
-  ground_pos_offset: {fileID: 0}
+  ground_pos_offset: {fileID: 759161599634404858}
   glint_renderer: {fileID: 0}
   inventory_position: {x: 0, y: 0, z: 0}
   inventory_rotation: {x: 0, y: 90, z: 0}
@@ -1097,12 +1098,12 @@ MonoBehaviour:
   debug_controls: 0
   spring: {fileID: 0}
   spring_quality: 1
-  sound_event_add_round: 
-  sound_event_thumb_push_down: 
-  sound_event_thumb_release: 
-  sound_event_bullet_insert_vertical: 
-  sound_event_bullet_remove_vertical: 
-  sound_event_bullet_insert_horizontal: 
+  sound_event_add_round: event:/Magazines/1911_mag_bullet_insert_horizontal
+  sound_event_thumb_push_down: event:/Magazines/1911_mag_thumb_press
+  sound_event_thumb_release: event:/Magazines/1911_mag_thumb_release
+  sound_event_bullet_insert_vertical: event:/Magazines/1911_mag_bullet_insert_vertical
+  sound_event_bullet_remove_vertical: event:/Magazines/1911_mag_bullet_remove_vertical
+  sound_event_bullet_insert_horizontal: event:/Magazines/1911_mag_bullet_insert_horizontal
   rounds: []
   round_prefab: {fileID: 0}
   follower: {fileID: 5446796077454131710}
@@ -1226,6 +1227,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &4222382232820444412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759161599634404858}
+  m_Layer: 0
+  m_Name: ground_pos_offset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759161599634404858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222382232820444412}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.011, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5688852244347458273}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &4336961254845256924
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,8 @@
     "overrideReferences": true,
     "precompiledReferences": [
         "Wolfire.Receiver2.dll",
-        "BepInEx.dll"
+        "BepInEx.dll",
+        "SimpleJSON.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
