@@ -35,7 +35,7 @@ namespace StrykBMod {
 
 		private bool SpawnHandler(ref ActiveItem item) {
 
-			if (Random.value <= 0.25 && LocalAimHandler.player_instance != null && LocalAimHandler.player_instance.TryGetGun(out var gun) && !(gun as StrykBScript).rds_installed) {
+			if (Random.value <= 0.4 && LocalAimHandler.player_instance != null && LocalAimHandler.player_instance.TryGetGun(out var gun) && !(gun as StrykBScript).rds_installed) {
 				item.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
 
 				item.SetItemSpawn(rds_prefab.InternalName);
@@ -76,16 +76,18 @@ namespace StrykBMod {
 		private IEnumerator AnimateSightPlacement(InventoryItem red_dot) {
 			installing_rds = true;
 
-			while (red_dot.transform.localPosition != new Vector3(0, 0.01f) || red_dot.transform.localRotation != Quaternion.identity) {
-				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, new Vector3(0, 0.01f), 0.01f);
-				red_dot.transform.localRotation = Quaternion.RotateTowards(red_dot.transform.localRotation, Quaternion.identity, 5);
+			while (red_dot.transform.localPosition != new Vector3(0, 0.02f) || red_dot.transform.localRotation != Quaternion.identity) {
+				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, new Vector3(0, 0.02f), 0.6f * Time.deltaTime);
+				red_dot.transform.localRotation = Quaternion.RotateTowards(red_dot.transform.localRotation, Quaternion.identity, 400 * Time.deltaTime);
 				yield return null;
 			}
 
 			while (red_dot.transform.localPosition != Vector3.zero) {
-				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, Vector3.zero, 0.003f);
+				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, Vector3.zero, 0.1f * Time.deltaTime);
 				yield return null;
 			}
+
+			AudioManager.PlayOneShotAttached("event:/strykb_attach_sight", this.slide.transform.Find("rds_position").gameObject);
 
 			installing_rds = false;
 		}
@@ -109,8 +111,6 @@ namespace StrykBMod {
 				}
 			}
 
-			AudioManager.PlayOneShotAttached("event:/strykb_attach_sight", this.slide.transform.Find("rds_position").gameObject);
-
 			LocalAimHandler.player_instance.MoveInventoryItem(red_dot, this.GetComponent<InventorySlot>());
 
 			red_dot.transform.parent = this.slide.transform.Find("rds_position");
@@ -130,9 +130,26 @@ namespace StrykBMod {
 			this.rds_instance = red_dot;
 		}
 
-		public void LateUpdate() {
-			if (installing_rds) {
+		private void DetachRedDotSight(InventorySlot new_slot) {
+			LocalAimHandler.player_instance.MoveInventoryItem(this.rds_instance, new_slot);
+
+			AudioManager.PlayOneShotAttached("event:/strykb_attach_sight", this.slide.transform.Find("rds_position").gameObject);
+
+			this.rds_instance.rds_renderer.gameObject.SetActive(false);
+
+			this.rds_instance = null;
+		}
+
+		public override void LateUpdateGun() {
+			if (this.installing_rds) {
 				this.slide.amount = 0;
+				this.slide.vel = 0;
+
+				this.trigger.amount = Mathf.Min(this.trigger.amount, 0.79f);
+
+				this.UpdateAnimatedComponents();
+
+				this.slide.UpdateDisplay();
 			}
 
 			UpdateStriker();
@@ -177,7 +194,7 @@ namespace StrykBMod {
 			}
 
 			float old_vel = this._firing_pin.vel;
-			this._firing_pin.TimeStep(Time.deltaTime * Time.timeScale);
+			this._firing_pin.TimeStep(Time.deltaTime);
 			float new_vel = this._firing_pin.vel;
 
 			if (this._firing_pin.amount == 1 && (old_vel > new_vel || fired_on_this_frame)) {

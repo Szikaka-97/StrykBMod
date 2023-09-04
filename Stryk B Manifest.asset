@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8154814838871892356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <PersistentDataPath>\Guns\Stryk B\PlayerLoadouts
+  includeMetaFiles: 0
+  files:
+  - {fileID: 4900000, guid: 09d2b69723e01f24e956ab8e82fb7ed5, type: 3}
+  - {fileID: 4900000, guid: 728490e6f3aaa884fbe1fff552ff9d5a, type: 3}
+--- !u!114 &-7934292639641566205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <PersistentDataPath>\Guns\Stryk B\RankingProgressionCampaigns
+  includeMetaFiles: 0
+  files:
+  - {fileID: 4900000, guid: 4c9a6430f9cd00b45b76eb810a561461, type: 3}
+--- !u!114 &-7724581586596950561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <PersistentDataPath>\Guns\Stryk B\WorldGenerationConfigurations
+  includeMetaFiles: 0
+  files:
+  - {fileID: 4900000, guid: 273e2f15efff3f14e9ad4ba8234f2544, type: 3}
+  - {fileID: 4900000, guid: b4d1cd71564a1f341a73a8e40614c5a3, type: 3}
+  - {fileID: 4900000, guid: 45ffa93ea9a374a488f960de79e139a2, type: 3}
+  - {fileID: 4900000, guid: db56f1d033457114a8eb1e1f519629e5, type: 3}
+  - {fileID: 4900000, guid: dad126e9c2d40a641b3bfd1ad53073b7, type: 3}
+  - {fileID: 4900000, guid: 5e6c228a3107be04da6656d2091f7fe2, type: 3}
 --- !u!114 &-1953320921570319506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +70,7 @@ MonoBehaviour:
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - C:\Users\Szikaka\AppData\LocalLow\Wolfire Games\Receiver2\Guns\Stryk B
+  - <PersistentDataPath>\Guns\Stryk B
   assetBundles:
   - assetBundleName: szikaka_strykb.windows
     assets:
@@ -21,6 +78,7 @@ MonoBehaviour:
     - {fileID: 3828907343282948865, guid: 87431bfefc5228442b2907307414545b, type: 3}
     - {fileID: 8634360312836015238, guid: f48b459fff4349641ac0bfc9daf190ff, type: 3}
     - {fileID: 6807435496881866014, guid: b80c35152300e81438cbab9283963e82, type: 3}
+    - {fileID: 3534747475769457130, guid: 80fc3aa70054e06468e2be4818fb8b8f, type: 3}
     - {fileID: 11400000, guid: 943edaaf7524d1b4f91d23209da8a2f2, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -38,6 +96,9 @@ MonoBehaviour:
   - {fileID: 7805127737676573756}
   - {fileID: 7414976276276018343}
   - {fileID: -1953320921570319506}
+  - {fileID: -8154814838871892356}
+  - {fileID: -7934292639641566205}
+  - {fileID: -7724581586596950561}
   identity: {fileID: 7805127737676573756}
   QuickAccess: 0
 --- !u!114 &7414976276276018343
@@ -53,7 +114,7 @@ MonoBehaviour:
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - D:\Gry\Steam\steamapps\common\Receiver 2\BepInEx\plugins\StrykBMod
+  - <GamePath>\BepInEx\plugins\StrykBMod
   definitions:
   - {fileID: 5897886265953266890, guid: e26ac4447b2788742adbc6d1f2cfe40b, type: 3}
 --- !u!114 &7805127737676573756
@@ -72,6 +133,6 @@ MonoBehaviour:
   Author: Szikaka
   Name: Stryk B Plugin
   Description: 
-  Version: 0.1.0
+  Version: 1.0.0
   Dependencies:
   - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}

@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3337228795732520815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d65cc226c348d45aa1c6dddf3600a6, type: 3}
+  m_Name: Delete
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  Recursive: 0
+  IsFatal: 0
+  Path: <PersistentDataPath>\Guns\Stryk B\szikaka_strykb.windows.manifest
 --- !u!114 &-2459257874117738593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,6 +88,79 @@ MonoBehaviour:
   Data:
   - {fileID: -883455484595094007}
   - {fileID: -1290592747372916093}
+  - {fileID: 2215690754618376761}
+  - {fileID: 3769387944116857035}
+  - {fileID: 4558017469787209379}
+  - {fileID: -3337228795732520815}
+  - {fileID: 4425771048041956493}
   - {fileID: -2459257874117738593}
   QuickAccess: 1
   manifest: {fileID: 11400000, guid: 4a5d509947aa977429860b5f726d8e78, type: 2}
+--- !u!114 &2215690754618376761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924ee63e6c016f14d8a1560b288f15a3, type: 3}
+  m_Name: StageAssetBundles
+  m_EditorClassIdentifier: 
+  Active: 0
+  AssetBundleBuildOptions: 1
+  buildTarget: 2
+  recurseDirectories: 0
+  simulate: 0
+  BundleArtifactPath: <AssetBundleStaging>
+--- !u!114 &3769387944116857035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924ee63e6c016f14d8a1560b288f15a3, type: 3}
+  m_Name: StageAssetBundles
+  m_EditorClassIdentifier: 
+  Active: 0
+  AssetBundleBuildOptions: 1
+  buildTarget: 24
+  recurseDirectories: 0
+  simulate: 0
+  BundleArtifactPath: <AssetBundleStaging>
+--- !u!114 &4425771048041956493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d65cc226c348d45aa1c6dddf3600a6, type: 3}
+  m_Name: Delete
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  Recursive: 0
+  IsFatal: 0
+  Path: <PersistentDataPath>\Guns\Stryk B\Stryk B Plugin.manifest
+--- !u!114 &4558017469787209379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3570c76eb7a5c3c45942d9295a150917, type: 3}
+  m_Name: StageManifestFiles
+  m_EditorClassIdentifier: 
+  Active: 1

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7475830143466937573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 8777989428293904482}
   - component: {fileID: 5604010419113973681}
   - component: {fileID: 2501505006274269194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 3587838879569300584}
   - component: {fileID: 8700357620460908727}
   - component: {fileID: 7767001150750066282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safety_firing_pin_spring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 2544104185831993586}
   - component: {fileID: 6154191683853430904}
   - component: {fileID: 7310764614941654041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4833151308803935967}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_mag_inserted
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 7329241732466929096}
   - component: {fileID: 5777607221438784870}
   - component: {fileID: 6412976945839408246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: main_ping_retainer_part
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206247354658965048}
   - component: {fileID: 7633223821722685017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_hit_ejector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 862057090160944088}
   - component: {fileID: 3680836732593848100}
   - component: {fileID: 2025919774193425333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 4681457534776232811}
   - component: {fileID: 2526584577918832746}
   - component: {fileID: 2080546102544112255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sear_pin_holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 7297668922118091826}
   - component: {fileID: 2911980108264079766}
   - component: {fileID: 4850053792822856545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911619718876942363}
-  m_LocalRotation: {x: -0.13704, y: 0, z: 0, w: 0.99056554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 8763529417847314333}
   - component: {fileID: 8330473455944707878}
   - component: {fileID: 1789855870010014480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slide_stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7233430532148785014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_stop_blocked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 3971783443259354490}
   - component: {fileID: 1801790389621960705}
   - component: {fileID: 3254209868259833941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: locking_block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 781267745934028475}
   - component: {fileID: 5650507584838077242}
   - component: {fileID: 4970332525458517707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 6766483367997112329}
   - component: {fileID: 2487374601091954989}
   - component: {fileID: 836868664536166756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3073678510100248577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_mag_to_insert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 506792606989465531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_pressed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1165,7 @@ GameObject:
   - component: {fileID: 8323486111749432699}
   - component: {fileID: 5281172433819508492}
   - component: {fileID: 7437553164359097746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3004842293504227174}
   - component: {fileID: 4265017169586246954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pegboard_hanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bounds:
     m_Center: {x: 0.0022487864, y: 0.0820683, z: 0.0000120177865}
-    m_Extent: {x: 0.09696165, y: 0.0820683, z: 0.09696165}
+    m_Extent: {x: 0.026550777, y: 0.0820683, z: 0.09696165}
 --- !u!1 &1672215475470246927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 1922021028507297861}
   - component: {fileID: 2413707254834555398}
   - component: {fileID: 4302733942005380835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3306524605616758551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_stovepipe_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1419,7 +1419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4575461875502583949}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_reload
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,7 +1452,7 @@ GameObject:
   - component: {fileID: 6997266781831498408}
   - component: {fileID: 1453153958722442433}
   - component: {fileID: 949090609272697835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_spring_guide_rod_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1546,85 +1546,6 @@ MonoBehaviour:
   X_rot_keyframes: []
   Y_rot_keyframes: []
   Z_rot_keyframes: []
---- !u!1 &1914612235467023148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5371031284612804126}
-  - component: {fileID: 7700882913447542375}
-  - component: {fileID: 1479932744180385634}
-  m_Layer: 0
-  m_Name: flash
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5371031284612804126
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914612235467023148}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.11434, z: 0.59789}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3427151335133602962}
-  m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7700882913447542375
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914612235467023148}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1479932744180385634
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914612235467023148}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &1976222040149784992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1557,7 @@ GameObject:
   - component: {fileID: 8365687222071263215}
   - component: {fileID: 8763762018131211381}
   - component: {fileID: 3589115317735318284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1716,7 +1637,7 @@ GameObject:
   - component: {fileID: 1305807807852966480}
   - component: {fileID: 4609274255329349541}
   - component: {fileID: 5144745684176911058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firing_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1797,7 +1718,7 @@ GameObject:
   - component: {fileID: 640404154901439330}
   - component: {fileID: 2883594551429137682}
   - component: {fileID: 3332015769594822627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_guide_rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +1801,7 @@ GameObject:
   - component: {fileID: 7624691876866124874}
   - component: {fileID: 4800554201119993952}
   - component: {fileID: 1577475588593721514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ejector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1972,7 +1893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8549949554151491865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2005,7 +1926,7 @@ GameObject:
   - component: {fileID: 1932485338721449095}
   - component: {fileID: 2724128125616523081}
   - component: {fileID: 3580403365402410675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: main_pin_retainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2083,7 +2004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5769073052879534523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_slide_pull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2192,7 +2113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8615461640043724665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_press_check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2222,7 +2143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7394501194752433763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2254,7 +2175,7 @@ GameObject:
   - component: {fileID: 1429177306803347095}
   - component: {fileID: 8922915533124221629}
   - component: {fileID: 6983860834844997185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2334,7 +2255,7 @@ GameObject:
   - component: {fileID: 1115710698663100232}
   - component: {fileID: 5195713750672207404}
   - component: {fileID: 541968440547894728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_spring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2348,7 +2269,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2620737805478017755}
-  m_LocalRotation: {x: 0.089763485, y: 0, z: 0, w: 0.99596316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0010194321, y: 0.000000009536743, z: -5.9604643e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2435,7 +2356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6742645380503725026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_aim_down_sights_regular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2470,7 +2391,7 @@ GameObject:
   - component: {fileID: 7831409203925382051}
   - component: {fileID: 2977790008798524479}
   - component: {fileID: 8701801770012146708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stryk B Custom Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,8 +2445,8 @@ Transform:
   - {fileID: 1319109617501220349}
   - {fileID: 5769073052879534523}
   - {fileID: 8615461640043724665}
+  - {fileID: 4998822631514667085}
   - {fileID: 3799089120769495709}
-  - {fileID: 5371031284612804126}
   - {fileID: 3004842293504227174}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2772,7 +2693,7 @@ MonoBehaviour:
       index: 82
       length: 2
     events: []
-  spawn_info_sprite: {fileID: 21300000, guid: c20949df0831473469cdf79e93902a41, type: 3}
+  spawn_info_sprite: {fileID: 21300000, guid: b9b9fa525d8c48e45accf37cb8666a82, type: 3}
   sound_event_gunshot: event:/strykb_fire
   sound_dry_fire: event:/strykb_dry_fire
   sound_safety_on: 
@@ -2811,7 +2732,9 @@ MonoBehaviour:
   flash_use_gun_position: 0
   loaded_cartridge_prefab: {fileID: 0}
   cartridge_dimensions: 
-  update_springs: []
+  update_springs:
+  - spring: {fileID: 8406369016256511623}
+    update_direction: 0
   animated_components:
   - anim_path: barrel_unlock
     mover_name: slide
@@ -3027,6 +2950,7 @@ MonoBehaviour:
   transform_mag_inserted: {fileID: 0}
   select_fire_component: {fileID: 0}
   select_fire_animation_path: 
+  muzzle_flash_prefab: {fileID: 7053769415460303386}
   visible_in_spawnmenu: 1
   spawns_in_dreaming: 1
   help_entry:
@@ -3042,11 +2966,10 @@ MonoBehaviour:
 
       After creating the extravagant AF2011 pistol, Italian arms
       manufacturer Arsenal Firearms decided to expand to the lucrative tactical pistol
-      marked and create a modern, striker fired firearm to compete with the likes
+      market and create a modern, striker fired firearm to compete with the likes
       of Glock and Springfield. To do it, they partnered with the famous Izhevsk
       plan and the infamous FSB "Alpha" group. The new Stryk-A pistol was unveiled
       in 2016, along with is''s more compact version, the Stryk-B
-
 
 
       Stryk-B
@@ -3076,11 +2999,10 @@ MonoBehaviour:
 
     After creating the extravagant AF2011 pistol, Italian
     arms manufacturer Arsenal Firearms decided to expand to the lucrative tactical
-    pistol marked and create a modern, striker fired firearm to compete with the
+    pistol market and create a modern, striker fired firearm to compete with the
     likes of Glock and Springfield. To do it, they partnered with the famous Izhevsk
     plan and the infamous FSB "Alpha" group. The new Stryk-A pistol was unveiled
     in 2016, along with is''s more compact version, the Stryk-B
-
 
 
     Stryk-B was
@@ -3140,7 +3062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2520412168789222668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_under_slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3170,7 +3092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1779012817394159484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_chambered_round
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3204,7 +3126,7 @@ GameObject:
   - component: {fileID: 1867611335035036739}
   - component: {fileID: 3883264449772110439}
   - component: {fileID: 598914359030921961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_safety
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +3140,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2999928044712525092}
-  m_LocalRotation: {x: 0.084395595, y: 0, z: 0, w: 0.9964323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.00059998035, z: 0.019625012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3309,7 +3231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6948336483067020987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_recoil_rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3430,7 +3352,7 @@ GameObject:
   - component: {fileID: 8426250767062428927}
   - component: {fileID: 6038753407455692732}
   - component: {fileID: 5994406274266662947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pin_of_safety_firing_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3510,7 +3432,7 @@ GameObject:
   - component: {fileID: 948688407161002580}
   - component: {fileID: 6915175379600369282}
   - component: {fileID: 5395403404070448190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch_spring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3613,7 +3535,7 @@ GameObject:
   - component: {fileID: 2012876915439338438}
   - component: {fileID: 435971314180964128}
   - component: {fileID: 5795734384845613775}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3693,7 +3615,7 @@ GameObject:
   - component: {fileID: 7774234539740904852}
   - component: {fileID: 8210158706515155050}
   - component: {fileID: 446661464118971140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_bar_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3773,7 +3695,7 @@ GameObject:
   - component: {fileID: 3133620308341031537}
   - component: {fileID: 4418984924561435564}
   - component: {fileID: 7193050350769318451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3852,7 +3774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3762413486625086869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_stop_active
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3884,7 +3806,7 @@ GameObject:
   - component: {fileID: 5714381104396801748}
   - component: {fileID: 681532774974430893}
   - component: {fileID: 8682845320270051211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firing_pin_rebound_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3961,7 +3883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4399379950369844229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_model (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3992,7 +3914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6229740994985840964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_aim_down_sights_rds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4024,7 +3946,7 @@ GameObject:
   - component: {fileID: 7582003055422456311}
   - component: {fileID: 1707149090606052884}
   - component: {fileID: 3541577583537513729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firing_pin_spring_guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4042,6 +3964,7 @@ Transform:
   m_LocalPosition: {x: -0.0044997917, y: 0.010112435, z: -0.07314024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 738561736822782372}
   - {fileID: 7185885443396791120}
   m_Father: {fileID: 7708889169796324967}
   m_RootOrder: 5
@@ -4105,7 +4028,7 @@ GameObject:
   - component: {fileID: 7144714403528150707}
   - component: {fileID: 3581510128815238307}
   - component: {fileID: 2799478254991970136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slide_cover_plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4121,7 @@ GameObject:
   - component: {fileID: 4934805612397462420}
   - component: {fileID: 5847368144223525118}
   - component: {fileID: 4796386029225813988}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sear_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4277,7 +4200,7 @@ GameObject:
   - component: {fileID: 5043147925356809810}
   - component: {fileID: 6622284697948726072}
   - component: {fileID: 936886069867459974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4355,7 +4278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319109617501220349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_inspect_gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4387,7 +4310,7 @@ GameObject:
   - component: {fileID: 6096013758343443398}
   - component: {fileID: 7028709828478249167}
   - component: {fileID: 7664693294755242676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: disassembly_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4466,7 +4389,7 @@ GameObject:
   - component: {fileID: 1742244654802181854}
   - component: {fileID: 9022641313544166842}
   - component: {fileID: 7533458491413655558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_safety_pin_stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4547,7 +4470,7 @@ GameObject:
   - component: {fileID: 7996448703484958008}
   - component: {fileID: 2995680365194508826}
   - component: {fileID: 465790024220250605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ejector1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4666,7 +4589,7 @@ GameObject:
   - component: {fileID: 526036682304024929}
   - component: {fileID: 976737275284722738}
   - component: {fileID: 7098440875983472459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sear_spring_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4746,7 +4669,7 @@ GameObject:
   - component: {fileID: 5788306564032778179}
   - component: {fileID: 5371500731534115869}
   - component: {fileID: 7008222625724619698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: front_sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4825,7 +4748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048544975589593159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4858,7 +4781,7 @@ GameObject:
   - component: {fileID: 934121107948528019}
   - component: {fileID: 3151766216368334979}
   - component: {fileID: 1776494334492588407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slide_stop_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4937,7 +4860,7 @@ GameObject:
   - component: {fileID: 5361497062188374046}
   - component: {fileID: 7485381773341744539}
   - component: {fileID: 8585207500470778611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tritium rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5014,15 +4937,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7185885443396791120}
-  - component: {fileID: 975516234963820799}
-  - component: {fileID: 8956194723704746488}
-  m_Layer: 0
+  - component: {fileID: 3572438185294681076}
+  - component: {fileID: 8406369016256511623}
+  m_Layer: 8
   m_Name: firing_pin_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7185885443396791120
 Transform:
   m_ObjectHideFlags: 0
@@ -5031,22 +4954,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4653368776921617787}
   m_LocalRotation: {x: 0, y: 0, z: 3.5527137e-15, w: 1}
-  m_LocalPosition: {x: 0.0000022625923, y: -0.0000013923644, z: -0.012795715}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0199}
   m_LocalScale: {x: 1.0027778, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7582003055422456311}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &975516234963820799
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4653368776921617787}
-  m_Mesh: {fileID: 8401656542751059280, guid: 12a472bdf4681c6458915424a87fe73b, type: 3}
---- !u!23 &8956194723704746488
-MeshRenderer:
+--- !u!137 &3572438185294681076
+SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5059,11 +4974,11 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 54511ae5ef156b841a008c4dc294b78b, type: 2}
+  - {fileID: 2100000, guid: b08577ccf6a6175498d388a908d4add9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5084,6 +4999,37 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 3854356715719350718, guid: 12a472bdf4681c6458915424a87fe73b, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.0000010222429, y: -0.00000017881393, z: 0}
+    m_Extent: {x: 0.0023497841, y: 0.002386167, z: 0.033}
+  m_DirtyAABB: 0
+--- !u!114 &8406369016256511623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4653368776921617787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -645897255, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min_scale: 0
+  max_scale: 0
+  orig_center: {x: 0, y: 0, z: 0}
+  orig_dist: 0
+  curr_scale: 0
+  new_top: {fileID: 6913487715888536963}
+  new_bottom: {fileID: 738561736822782372}
 --- !u!1 &4711364137317406744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5093,7 +5039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 161158565969208323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_round_entering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5124,7 +5070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3875389118032435069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_stovepipe_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5154,7 +5100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3594276294319004032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firing_pin_forwards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5187,7 +5133,7 @@ GameObject:
   - component: {fileID: 6391318945182381586}
   - component: {fileID: 447305044141203423}
   - component: {fileID: 862921793783138760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: extractor_spring_guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5280,7 +5226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3195343018916869827}
   - component: {fileID: 5294889177286170512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_spring_fat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5362,7 +5308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4572356178907300700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch_pressed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5392,7 +5338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5364925716135359989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_stovepipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5422,7 +5368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6923173032000848120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_bullet_fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5443,6 +5389,36 @@ Transform:
   m_Father: {fileID: 3427151335133602962}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5058344366060619360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738561736822782372}
+  m_Layer: 8
+  m_Name: firing_pin_spring_bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738561736822782372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5058344366060619360}
+  m_LocalRotation: {x: -0, y: -0, z: 3.5527137e-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.013230242}
+  m_LocalScale: {x: 1.0027778, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7582003055422456311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5080702495524718469
 GameObject:
   m_ObjectHideFlags: 0
@@ -5454,7 +5430,7 @@ GameObject:
   - component: {fileID: 1174589543074865756}
   - component: {fileID: 2623570893716589037}
   - component: {fileID: 2484579428796743218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5533,7 +5509,7 @@ GameObject:
   - component: {fileID: 1421779277582721399}
   - component: {fileID: 6300870512262462896}
   - component: {fileID: 5788806690032988402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_bar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5612,7 +5588,7 @@ GameObject:
   - component: {fileID: 4969037856984306090}
   - component: {fileID: 7438295277337555352}
   - component: {fileID: 6741115927187526147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safety_firing_pin_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5690,7 +5666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5787901073824729572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_stovepipe_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5723,7 +5699,7 @@ GameObject:
   - component: {fileID: 3797896029077828797}
   - component: {fileID: 4641445687378474772}
   - component: {fileID: 3778793426457604270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_spring_guide_rod_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5825,7 +5801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3505254731770629460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: load_progression
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5861,7 +5837,7 @@ GameObject:
   - component: {fileID: 2475810211854308977}
   - component: {fileID: 3101945799480671499}
   - component: {fileID: 1834927583887447162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5875,7 +5851,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5618097765926310821}
-  m_LocalRotation: {x: 0.10018806, y: 0, z: 0, w: 0.99496853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.011951923, z: -0.0029193908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5964,7 +5940,7 @@ GameObject:
   - component: {fileID: 566945325728198333}
   - component: {fileID: 8110425954428790408}
   - component: {fileID: 3490403572619745851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6041,7 +6017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485194465225387011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_doublefeed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6073,7 +6049,7 @@ GameObject:
   - component: {fileID: 1587744547120362074}
   - component: {fileID: 282403963476160302}
   - component: {fileID: 3654866847720081297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rear_chassis_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6150,7 +6126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6608568547328943838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6181,7 +6157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3088864236825620398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_mag_clear_catch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6211,7 +6187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4328275147882864819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_unstopped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6244,7 +6220,7 @@ GameObject:
   - component: {fileID: 1384155114336595523}
   - component: {fileID: 9073794902064126565}
   - component: {fileID: 7127957438114640465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6348,7 +6324,7 @@ GameObject:
   - component: {fileID: 1501942146970280679}
   - component: {fileID: 4173767728957243779}
   - component: {fileID: 3177356819745478277}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_safety_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6427,7 +6403,7 @@ GameObject:
   - component: {fileID: 6857279892539533629}
   - component: {fileID: 1035556387657176145}
   - component: {fileID: 2033046688117681934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: case
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6505,7 +6481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3799089120769495709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6525,7 +6501,7 @@ Transform:
   m_Children:
   - {fileID: 6857279892539533629}
   m_Father: {fileID: 3427151335133602962}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6088814722656121430
 GameObject:
@@ -6539,7 +6515,7 @@ GameObject:
   - component: {fileID: 2821981710357082205}
   - component: {fileID: 4593381277638451894}
   - component: {fileID: 8693217714472574449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safety_firing_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6643,7 +6619,7 @@ GameObject:
   - component: {fileID: 5143549567449994973}
   - component: {fileID: 4442497376344105536}
   - component: {fileID: 1352004729816631454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_spring_rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6723,7 +6699,7 @@ GameObject:
   - component: {fileID: 3998733449071417795}
   - component: {fileID: 5045004372609266561}
   - component: {fileID: 7391130141406385020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forward_chassis_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6802,7 +6778,7 @@ GameObject:
   - component: {fileID: 1974670976137050207}
   - component: {fileID: 3081875938039865679}
   - component: {fileID: 3165875977367039340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_spring_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6911,7 +6887,7 @@ GameObject:
   - component: {fileID: 8510842163859318954}
   - component: {fileID: 8513622977913149724}
   - component: {fileID: 2382411140493756352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: front_sight_screw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6991,7 +6967,7 @@ GameObject:
   - component: {fileID: 7991339393641868960}
   - component: {fileID: 3264187977390047187}
   - component: {fileID: 3472121154035992142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firing_pin_guiding_sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7006,9 +6982,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6837192965242740176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0048019853, y: 0.006121233, z: -0.00152}
+  m_LocalPosition: {x: -0.0048019853, y: 0.006121233, z: 0.015}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6913487715888536963}
   m_Father: {fileID: 1305807807852966480}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7095,7 +7072,7 @@ GameObject:
   - component: {fileID: 919485057927280262}
   - component: {fileID: 6711694607082632810}
   - component: {fileID: 4987489007133708934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_spring2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7109,7 +7086,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6863530550251027679}
-  m_LocalRotation: {x: -0.03925982, y: 0, z: 0, w: 0.9992291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.45058e-10, y: 0.000000038146972, z: -5.9604643e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7199,7 +7176,7 @@ GameObject:
   - component: {fileID: 2654469511580570879}
   - component: {fileID: 4938561008319486620}
   - component: {fileID: 1429204564897270016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7310,7 +7287,7 @@ GameObject:
   - component: {fileID: 3274751605080610312}
   - component: {fileID: 7067206284014591613}
   - component: {fileID: 2909414675485364857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7405,6 +7382,113 @@ MonoBehaviour:
   X_rot_keyframes: []
   Y_rot_keyframes: []
   Z_rot_keyframes: []
+--- !u!1 &7053769415460303386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998822631514667085}
+  - component: {fileID: 2020580414885697155}
+  - component: {fileID: 4402561879557433894}
+  m_Layer: 8
+  m_Name: muzzle_flash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4998822631514667085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7053769415460303386}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8321870783526126719}
+  m_Father: {fileID: 3427151335133602962}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020580414885697155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7053769415460303386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766668287, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opac: 1
+--- !u!108 &4402561879557433894
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7053769415460303386}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.7254902, b: 0, a: 1}
+  m_Intensity: 100
+  m_Range: 8
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &7064134335838215621
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,7 +7500,7 @@ GameObject:
   - component: {fileID: 8819634681949381779}
   - component: {fileID: 1748795569079735670}
   - component: {fileID: 9029153821222461431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: extractor_plunger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7496,7 +7580,7 @@ GameObject:
   - component: {fileID: 787832052223790765}
   - component: {fileID: 3901142386974877428}
   - component: {fileID: 5647987452736687607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: extractor_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7575,7 +7659,7 @@ GameObject:
   - component: {fileID: 1965287547247879195}
   - component: {fileID: 5823036201170305547}
   - component: {fileID: 1369315994413584183}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_bar_spring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7652,7 +7736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7651412138809856644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger(rotate)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7685,7 +7769,7 @@ GameObject:
   - component: {fileID: 2506056312905010421}
   - component: {fileID: 3825522650776318548}
   - component: {fileID: 1189048520831994891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: extractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7795,7 +7879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284889568645443494}
   - component: {fileID: 6597575444893974885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_spring_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7879,7 +7963,7 @@ GameObject:
   - component: {fileID: 1071546880976573051}
   - component: {fileID: 2006113984879643431}
   - component: {fileID: 3362454009047869146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_safety_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7956,7 +8040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2382783955451712224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_muzzleflash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7988,7 +8072,7 @@ GameObject:
   - component: {fileID: 841937428588508362}
   - component: {fileID: 3130707522462479766}
   - component: {fileID: 5610683001548870515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rear_sight_screw_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8067,7 +8151,7 @@ GameObject:
   - component: {fileID: 1135207804958148437}
   - component: {fileID: 5613250196466257113}
   - component: {fileID: 727476650150677145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: extractor_spring_guide_pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8135,6 +8219,85 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &7828823655971232585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8321870783526126719}
+  - component: {fileID: 362069247841560139}
+  - component: {fileID: 1938912714985437223}
+  m_Layer: 8
+  m_Name: viz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8321870783526126719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828823655971232585}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.13}
+  m_LocalScale: {x: 1, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 4998822631514667085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &362069247841560139
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828823655971232585}
+  m_Mesh: {fileID: 7396203028368537114, guid: 0c6bb314539445b46801a40ab781cc1d, type: 3}
+--- !u!23 &1938912714985437223
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828823655971232585}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: edbb9156e2f3c9e408d10b7f1f129584, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &7898234407745740375
 GameObject:
   m_ObjectHideFlags: 0
@@ -8146,7 +8309,7 @@ GameObject:
   - component: {fileID: 266596639207133872}
   - component: {fileID: 2775856186562964409}
   - component: {fileID: 3526613161626299755}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rear_sight_screw_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8214,6 +8377,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &7975490723836685758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6913487715888536963}
+  m_Layer: 8
+  m_Name: firing_pin_spring_top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6913487715888536963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975490723836685758}
+  m_LocalRotation: {x: -0, y: -0, z: 3.5527137e-15, w: 1}
+  m_LocalPosition: {x: -0.00043111667, y: 0.00069873035, z: 0.023939997}
+  m_LocalScale: {x: 1.0027778, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7099929556524464794}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8108079535389184292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8225,7 +8418,7 @@ GameObject:
   - component: {fileID: 3717677654673109232}
   - component: {fileID: 2109220370741461267}
   - component: {fileID: 6328279757599128763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: loop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8302,7 +8495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3891355578718430180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pose_aim_down_sights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8335,7 +8528,7 @@ GameObject:
   - component: {fileID: 465006498082137805}
   - component: {fileID: 8881441644089819105}
   - component: {fileID: 8939242968364339615}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8436,7 +8629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5822084296938856906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_chambered_round
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8466,7 +8659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742049452771571872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_model (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8498,7 +8691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7916040449691930742}
   - component: {fileID: 3453773633377270582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trigger_bar_parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8555,7 +8748,7 @@ GameObject:
   - component: {fileID: 3301746964000897192}
   - component: {fileID: 8661456235466264250}
   - component: {fileID: 7773829556160560972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magazine_catch_spring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8634,7 +8827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8056935272598836245}
   - component: {fileID: 4106697705195882151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: recoil_spring_medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8718,7 +8911,7 @@ GameObject:
   - component: {fileID: 7037066987941483613}
   - component: {fileID: 8370975765341667346}
   - component: {fileID: 3848033126565407554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rear_sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8797,7 +8990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4076229940923476950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: center_of_mass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8829,7 +9022,7 @@ GameObject:
   - component: {fileID: 1340824850932253128}
   - component: {fileID: 566230108577848143}
   - component: {fileID: 3038304937441528430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safety_firing_pin_spring2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8906,7 +9099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3022137497776988155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: round_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8937,7 +9130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3080256995714896188}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: point_slide_stopped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8967,7 +9160,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4508091200544987937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
