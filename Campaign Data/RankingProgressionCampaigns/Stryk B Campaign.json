@@ -1,0 +1,34 @@
+{
+    "ranks" : [
+        {
+            "name" : 82,
+            "configuration" : "0_stryk_b_introduction",
+            "local_version" : true
+        },
+        {
+            "name" : 83,
+            "configuration" : "1_stryk_b_beginner",
+            "local_version" : true
+        },
+        {
+            "name" : 84,
+            "configuration" : "2_stryk_b_sleeper",
+            "local_version" : true
+        },
+        {
+            "name" : 85,
+            "configuration" : "3_stryk_b_sleepwalker",
+            "local_version" : true
+        },
+        {
+            "name" : 86,
+            "configuration" : "4_stryk_b_liminals",
+            "local_version" : true
+        },
+        {
+            "name" : 87,
+            "configuration" : "5_stryk_b_awake",
+            "local_version" : true
+        }
+    ]
+}
