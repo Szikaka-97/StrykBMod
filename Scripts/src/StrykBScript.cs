@@ -7,6 +7,9 @@ using Receiver2ModdingKit;
 
 namespace StrykBMod {
 	public class StrykBScript : ModGunScript {
+		private static Keybind key_attach_sight = new Keybind("Attach RDS", RewiredConsts.Action.Hammer, new Keybind.KeyRedirect(RewiredConsts.Action.Hammer));
+		private static Keybind key_detach_sight = new Keybind("Detach RDS", RewiredConsts.Action.Toggle_Safety_Auto_Mod, new Keybind.KeyRedirect(RewiredConsts.Action.Toggle_Safety_Auto_Mod));
+
 		private static readonly float slide_catch_striker_amount = 0.43608f;
 
 		public Transform trigger_bar_component;
@@ -34,7 +37,6 @@ namespace StrykBMod {
 		private List<ActiveItem> rds_items = new List<ActiveItem>();
 
 		private bool SpawnHandler(ref ActiveItem item) {
-
 			if (Random.value <= 0.4 && LocalAimHandler.player_instance != null && LocalAimHandler.player_instance.TryGetGun(out var gun) && !(gun as StrykBScript).rds_installed) {
 				item.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
 
@@ -92,6 +94,44 @@ namespace StrykBMod {
 			installing_rds = false;
 		}
 
+		private IEnumerator AnimateSightDetachment(InventoryItem red_dot, InventorySlot slot) {
+			installing_rds = true;
+
+			AudioManager.PlayOneShotAttached("event:/strykb_attach_sight", this.slide.transform.Find("rds_position").gameObject);
+
+			while (red_dot.transform.localPosition != new Vector3(0, 0.02f)) {
+				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, new Vector3(0, 0.02f), 0.1f * Time.deltaTime);
+				yield return null;
+			}
+
+			red_dot.transform.SetParent(LocalAimHandler.player_instance.main_camera.transform);
+
+			while (
+				red_dot.transform.localPosition != red_dot.hold_offset
+				||
+				red_dot.transform.localEulerAngles != red_dot.hold_rotation
+			) {
+				red_dot.transform.localPosition = Vector3.MoveTowards(red_dot.transform.localPosition, red_dot.hold_offset, 0.6f * Time.deltaTime);
+				red_dot.transform.localEulerAngles = new Vector3 (
+					Mathf.MoveTowardsAngle(red_dot.transform.localEulerAngles.x, red_dot.hold_rotation.x, 100 * Time.deltaTime),
+					Mathf.MoveTowardsAngle(red_dot.transform.localEulerAngles.y, red_dot.hold_rotation.y, 100 * Time.deltaTime),
+					Mathf.MoveTowardsAngle(red_dot.transform.localEulerAngles.z, red_dot.hold_rotation.z, 100 * Time.deltaTime)
+				);
+				yield return null;
+			}
+
+			LocalAimHandler.player_instance.MoveInventoryItem(red_dot, slot);
+
+			if (slot.contents.Count > 0) {
+				// red_dot.Move(null);
+			}
+			else {
+
+			}
+
+			installing_rds = false;
+		}
+
 		private void AttachRedDotSight(StrykBSightScript red_dot, bool animate) {
 			foreach (ActiveItem active_item in this.rds_items) {
 				if (active_item.loaded) {
@@ -131,9 +171,7 @@ namespace StrykBMod {
 		}
 
 		private void DetachRedDotSight(InventorySlot new_slot) {
-			LocalAimHandler.player_instance.MoveInventoryItem(this.rds_instance, new_slot);
-
-			AudioManager.PlayOneShotAttached("event:/strykb_attach_sight", this.slide.transform.Find("rds_position").gameObject);
+			StartCoroutine(AnimateSightDetachment(this.rds_instance, new_slot));
 
 			this.rds_instance.rds_renderer.gameObject.SetActive(false);
 
@@ -227,9 +265,27 @@ namespace StrykBMod {
 				&&
 				this.slide.amount == 0
 				&&
-				player_input.GetButtonDown(RewiredConsts.Action.Hammer)
+				player_input.GetButtonDown(key_attach_sight)
 			) {
 				AttachRedDotSight((StrykBSightScript) item, true);
+			}
+
+			if (
+				LocalAimHandler.player_instance != null
+				&&
+				rds_installed
+				&&
+				this.slot != null
+				&&
+				this.slot.type == InventorySlot.Type.RightHand
+				&&
+				LocalAimHandler.player_instance.hands[0].state == LocalAimHandler.Hand.State.Idle
+				&&
+				this.slide.amount == 0
+				&&
+				player_input.GetButtonDown(key_detach_sight)
+			) {
+				DetachRedDotSight(LocalAimHandler.player_instance.hands[0].slot);
 			}
 		}
 
