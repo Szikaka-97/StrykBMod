@@ -64,6 +64,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4590446794859006328, guid: 87431bfefc5228442b2907307414545b,
         type: 3}
+      propertyPath: model
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590446794859006328, guid: 87431bfefc5228442b2907307414545b,
+        type: 3}
       propertyPath: kMaxRounds
       value: 6
       objectReference: {fileID: 0}
