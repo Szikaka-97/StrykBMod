@@ -23,7 +23,7 @@ A striker fired pistol without a manual safety, developed by italian company Ars
 
 ### Using Thunderstore
 
-Go to [gun's Thunderstore page](https://thunderstore.io/c/receiver-2/p/Szikaka/Archon_Firearms_Stryk_B) and download the archive containing the mod
+Go to [gun's Thunderstore page](https://thunderstore.io/c/receiver-2/p/Szikaka/Stryk_B_Mod/) and download the archive containing the mod
 
 There should be 2 folders in the archive: <b>Stryk B Files</b> and <b>Stryk B Plugin</b>
 
